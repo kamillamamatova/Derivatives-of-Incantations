@@ -44,4 +44,10 @@ int main(){
     }
   }
   
-
+  // Count non-derivative incantations
+  int nonDerivativeCount = 0;
+  for (int i = 0; i < incantationCount; i++) {
+    if(!isNonDerivative[i]){
+      nonDerivativeCount++;
+    }
+  }
