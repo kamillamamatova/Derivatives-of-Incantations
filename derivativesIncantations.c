@@ -25,7 +25,7 @@ int main(){
     buffer[strcspn(buffer, "\n")] = '\0';
 
     // Stop reading if we encounter "END"
-    if(strcmp(buffer, "END")] == 0) break;
+    if(strcmp(buffer, "END") == 0) break;
 
     // Copy the incantations to the array
     strcpy(incantations[incantationCount++], buffer);
