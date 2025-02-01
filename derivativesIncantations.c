@@ -51,3 +51,8 @@ int main(){
       nonDerivativeCount++;
     }
   }
+
+  printf("%d\n", nonDerivativeCount);
+
+  return 0;
+}
