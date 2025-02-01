@@ -54,5 +54,6 @@ int main(){
 
   printf("%d\n", nonDerivativeCount);
 
+  // Exit program
   return 0;
 }
