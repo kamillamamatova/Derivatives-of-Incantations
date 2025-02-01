@@ -51,7 +51,8 @@ int main(){
       nonDerivativeCount++;
     }
   }
-
+  
+  // Output non-derivative incantations
   printf("%d\n", nonDerivativeCount);
 
   // Exit program
